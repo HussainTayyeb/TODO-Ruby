@@ -51,7 +51,7 @@ class Todo
 
   # choose option between add,delete,display
   def option
-    puts 'Please enter an option : \'add\' for new task, \'delete\' for delete (0..n) a task and \'display\' for show todo'
+    puts 'Please enter an option : \'add\' for new task, \'delete\' for delete a task and \'display\' for show todo'
   end
 end
 
