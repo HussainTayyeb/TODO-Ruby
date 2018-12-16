@@ -58,6 +58,7 @@ end
 todo = Todo.new # instance of class
 todo.display  # calling display
 todo.option   # calling option
+
 @input = gets # User-input for options
 if @input.include?('add')
   todo.add
